@@ -1,0 +1,30 @@
+<div id="about">
+    <div class="container content-lg">
+        <div class="row">
+            <div class="col-sm-3 sm-margin-b-30">
+                <div class="text-right sm-text-left">
+                    <h2 class="margin-b-0"><%- theme.about.title %></h2>
+                    <p><%- theme.about.subtitle %></p>
+                </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-1">
+                <div class="margin-b-60">
+                    <p><%- theme.about.description %></p>
+                </div>
+
+              <!-- Progress Box -->
+              <% theme.about.skills.forEach(skill => { %>
+                <div class="progress-box">
+                    <h5> <%= skill.name %> <span class="color-heading pull-right"><%= skill.percentage %>%</span></h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-color-base" role="progressbar" data-width="<%= skill.percentage %>"></div>
+                    </div>
+                </div>
+              <% }); %>
+              <!-- End Progress Box -->
+
+            </div>
+        </div>
+        <!--// end row -->
+    </div>
+</div>
