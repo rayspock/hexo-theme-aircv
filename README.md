@@ -1,8 +1,9 @@
 # hexo-theme-aircv
-Curriculum vitae theme for Hexo with splendid style design by [KeenThemes](https://www.keenthemes.com/).
+Light version of aircv theme on Hexo with style design by [KeenThemes](https://www.keenthemes.com/) 
 
 ## Screenshots
-![even-screenshots](images/slider.png)
+![aircv-screenshots](images/slider.png)
+[[Live Preview]](https://rayspock.github.io/hexo-theme-aircv/)
 
 ## Installation
 ```bash
