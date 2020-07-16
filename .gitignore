@@ -1,6 +1,7 @@
 .DS_Store
-/node_modules
+Thumbs.db
+db.json
 *.log
-/.vscode
-_config.yml
-
+node_modules/
+public/
+.deploy*/
