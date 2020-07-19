@@ -1,14 +1,16 @@
 <footer class="footer">
     <div class="content container">
         <div class="row">
+            <% if (theme.footer_logo){ %>
             <div class="col-xs-6">
-                <img class="footer-logo" src="img/logo-dark.png" alt="Aircv Logo">
+                    <img class="footer-logo" src="<%- theme.footer_logo %>">
+                
             </div>
             <div class="col-xs-6 text-right sm-text-left">
-                <p class="margin-b-0">&copy; <%= date(new Date(), 'YYYY') %> <a class="fweight-700" href="<%= config.url + config.root %>"><%= config.author || config.title %></a> Powered by: <a class="fweight-700" href="http://hexo.io/" target="_blank">Hexo</a></p>
-            </div>
-            <div class="col-xs-6 text-right sm-text-left">
-                <p class="margin-b-0"><a class="fweight-700" href="https://preview.keenthemes.com/aircv/">Aircv</a> Theme Powered by: <a class="fweight-700" href="https://www.keenthemes.com/">KeenThemes.com</a></p>
+            <% } else { %>
+            <div class="col-xs-12 text-center sm-text-left">
+            <% } %>
+                <p class="margin-b-0">&copy; <%= date(new Date(), 'YYYY') %> <a class="fweight-700" href="<%= config.url + config.root %>"><%= config.author || config.title %></a> Powered by: <a class="fweight-700" href="http://hexo.io/" target="_blank">Hexo</a> <br/> <a class="fweight-700" href="https://preview.keenthemes.com/aircv/">Aircv</a> Theme Powered by: <a class="fweight-700" href="https://www.keenthemes.com/">KeenThemes.com</a></p>
             </div>
         </div>
         <!--// end row -->

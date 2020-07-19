@@ -15,9 +15,9 @@
               <!-- Progress Box -->
               <% theme.about.skills.forEach(skill => { %>
                 <div class="progress-box">
-                    <h5> <%= skill.name %> <span class="color-heading pull-right"><%= skill.percentage %>%</span></h5>
+                    <h5> <%= skill.name %> <span class="color-heading pull-right"><%= skill.years %> years</span></h5>
                     <div class="progress">
-                        <div class="progress-bar bg-color-base" role="progressbar" data-width="<%= skill.percentage %>"></div>
+                        <div class="progress-bar bg-color-base" role="progressbar" data-width="<%= Math.ceil((skill.years/theme.about.years_exp)*100) %>"></div>
                     </div>
                 </div>
               <% }); %>

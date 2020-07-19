@@ -21,6 +21,10 @@ social:
   
 # Miscellaneous
 favicon: /favicon.png
+header_logo: img/logo.png
+header_logo_dark: img/logo-dark.png
+footer_logo: img/logo-dark.png
+slider: img/1920x1080/01.jpg
 
 # About
 about:
@@ -29,15 +33,16 @@ about:
   description: "I'm Alex Teseira, orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
   <br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  years_exp: 6
   skills:
     - name: PHP
-      percentage: 87
+      years: 5
     - name: HTML5
-      percentage: 96
+      years: 5.5
     - name: JavaSript
-      percentage: 52
+      years: 3
     - name: Photoshop
-      percentage: 77     
+      years: 4    
 
 # Contacts
 contact:
@@ -94,22 +99,10 @@ work:
       "
       cta: "Show me more"
       href: "#"
-      tags:
-        - text: "Design, "
-          href: "https://keenthemes.com/"
-        - text: "Coding, "
-          href: "https://keenthemes.com/"
-        - text: "Portfolio"
-          href: "https://keenthemes.com/"
-      parameters:
-        - title: "Project Leader"
-          text: "John Doe"
-        - title: "Designer"
-          text: "Keenthemes"
-        - title: "Developer"
-          text: " Alisa Keys"
-        - title: "Customer"
-          text: "Mark Doe"
+      tools:
+        - text: "HTML5/CSS3"
+        - text: "Photoshop"
+        - text: "JavaSript"
 
   #2
     - grid_class: "col-xs-12 col-sm-6 col-md-4 margin-b-4"
@@ -122,22 +115,10 @@ work:
       "
       cta: "Show me more"
       href: "#"
-      tags:
-        - text: "Design, "
-          href: "https://keenthemes.com/"
-        - text: "Coding, "
-          href: "https://keenthemes.com/"
-        - text: "Portfolio"
-          href: "https://keenthemes.com/"
-      parameters:
-        - title: "Project Leader"
-          text: "John Doe"
-        - title: "Designer"
-          text: "Keenthemes"
-        - title: "Developer"
-          text: " Alisa Keys"
-        - title: "Customer"
-          text: "Mark Doe"
+      tools:
+        - text: "HTML5/CSS3"
+        - text: "Photoshop"
+        - text: "JavaSript"
 
   #3
     - grid_class: "col-xs-12 col-sm-6 col-md-4 md-margin-b-4"
@@ -150,22 +131,10 @@ work:
       "
       cta: "Show me more"
       href: "#"
-      tags:
-        - text: "Design, "
-          href: "https://keenthemes.com/"
-        - text: "Coding, "
-          href: "https://keenthemes.com/"
-        - text: "Portfolio"
-          href: "https://keenthemes.com/"
-      parameters:
-        - title: "Project Leader"
-          text: "John Doe"
-        - title: "Designer"
-          text: "Keenthemes"
-        - title: "Developer"
-          text: " Alisa Keys"
-        - title: "Customer"
-          text: "Mark Doe"
+      tools:
+        - text: "HTML5/CSS3"
+        - text: "Photoshop"
+        - text: "JavaSript"
 
 
   #4
@@ -179,22 +148,10 @@ work:
       "
       cta: "Show me more"
       href: "#"
-      tags:
-        - text: "Design, "
-          href: "https://keenthemes.com/"
-        - text: "Coding, "
-          href: "https://keenthemes.com/"
-        - text: "Portfolio"
-          href: "https://keenthemes.com/"
-      parameters:
-        - title: "Project Leader"
-          text: "John Doe"
-        - title: "Designer"
-          text: "Keenthemes"
-        - title: "Developer"
-          text: " Alisa Keys"
-        - title: "Customer"
-          text: "Mark Doe"
+      tools:
+        - text: "HTML5/CSS3"
+        - text: "Photoshop"
+        - text: "JavaSript"
 
   #5
     - grid_class: "col-xs-12 col-sm-6 col-md-4"
@@ -207,19 +164,7 @@ work:
       "
       cta: "Show me more"
       href: "#"
-      tags:
-        - text: "Design, "
-          href: "https://keenthemes.com/"
-        - text: "Coding, "
-          href: "https://keenthemes.com/"
-        - text: "Portfolio"
-          href: "https://keenthemes.com/"
-      parameters:
-        - title: "Project Leader"
-          text: "John Doe"
-        - title: "Designer"
-          text: "Keenthemes"
-        - title: "Developer"
-          text: " Alisa Keys"
-        - title: "Customer"
-          text: "Mark Doe"
+      tools:
+        - text: "HTML5/CSS3"
+        - text: "Photoshop"
+        - text: "JavaSript"

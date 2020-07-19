@@ -12,8 +12,12 @@
                 <!-- Logo -->
                 <div class="logo">
                     <a class="logo-wrap" href="#body">
-                        <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
-                        <img class="logo-img logo-img-active" src="img/logo-dark.png" alt="Asentus Logo">
+                        <% if (theme.header_logo) { %>
+                            <img class="logo-img logo-img-main" src="<%- theme.header_logo %>">
+                        <% } %>
+                        <% if (theme.header_logo_dark) { %>
+                            <img class="logo-img logo-img-active" src="<%- theme.header_logo_dark %>">
+                        <% } %>
                     </a>
                 </div>
                 <!-- End Logo -->

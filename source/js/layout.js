@@ -39,11 +39,13 @@ var Layout = function () {
         
         // jQuery for page scrolling feature - requires jQuery Easing plugin
         $('.js_nav-item a').bind('click', function(event) {
-            var $position = $($(this).attr('href')).offset().top;
-            $('html, body').stop().animate({
-                scrollTop: $position - $offset
-            }, 600);
-            event.preventDefault();
+            if ($(this).attr('href').startsWith("#")) {
+                var $position = $($(this).attr('href')).offset().top;
+                $('html, body').stop().animate({
+                    scrollTop: $position - $offset
+                }, 600);
+                event.preventDefault();
+            }
         });
 
         var $scrollspy = $('body').scrollspy({target: '.navbar-fixed-top', offset: $offset+2});

@@ -28,23 +28,15 @@
                                   <b><a href="<%= item.href %>"> <%= item.cta %> </a></b>
                                 </p>
                               <% } %>
-                              <ul class="list-inline work-popup-tag">
-                                  <% item.tags.forEach( tag => { %>
-                                    <li class="work-popup-tag-item">
-                                      <% if (tag.href) { %>
-                                        <a class="work-popup-tag-link" href="<%= tag.href %>"><%= tag.text %></a>
-                                      <% } else { %>
-                                        <span class="work-popup-tag-text"> <%= tag.text %> </span>
-                                      <% } %>
-                                    </li>
-                                  <% }) %>
-                              </ul>
                             </div>
                         </div>
                         <div class="col-sm-4">
+                          <div class="margin-b-5">
+                            <p><h5>Development Tools</h5></p>
+                          </div>
                             <div class="margin-t-10 sm-margin-t-0">
-                              <% item.parameters.forEach( param => { %>
-                                <p class="margin-b-5"><strong><%= param.title %>:</strong> <%- param.text %></p>
+                              <% item.tools.forEach( tool => { %>
+                                <p class="margin-b-5"><%- tool.text %></p>
                               <% }) %>
                             </div>
                         </div>
