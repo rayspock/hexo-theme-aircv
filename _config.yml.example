@@ -20,7 +20,7 @@ social:
   icon-social-instagram: https://github.com/rayspock
   
 # Miscellaneous
-header: "Metronic Aircv Frontend Freebie"
+title: "Metronic Aircv Frontend Freebie"
 favicon: /favicon.png
 header_logo: img/logo.png
 header_logo_dark: img/logo-dark.png
