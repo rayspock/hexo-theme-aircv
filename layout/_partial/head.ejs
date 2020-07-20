@@ -10,12 +10,18 @@
     <meta content="<%- config.author %>" name="author"/>
     <% } %>   
     <!-- Open Graph -->
-    <% if (config.type) { %>
-    <meta property="og:type" content="<%- config.type %>"/>
-    <% } %>
     <meta property="og:site_name" content="<%- config.title %>"/>
     <meta property="og:title" content="<%- config.title %>"/>
     <meta property="og:description" content="<%- config.description %>"/>
+    <% if (config.type) { %>
+    <meta property="og:type" content="<%- config.type %>"/>
+    <% } %>
+    <% if (page.path) { %>
+    <meta property="og:url" content="<%- config.url + url_for(page.path) %>"/>
+    <% } %>
+    <% if (config.fb_app_id) { %>
+    <meta property="fb:app_id" content="<%- config.fb_app_id %>"/>
+    <% } %>    
     <% if (theme.open_graph) { %>
     <meta property="og:image" content="<%- config.url + url_for(theme.open_graph) %>">
     <meta property="og:image:type" content="image/jpg">
