@@ -25,6 +25,7 @@ header_logo: img/logo.png
 header_logo_dark: img/logo-dark.png
 footer_logo: img/logo-dark.png
 slider: img/1920x1080/01.jpg
+open_graph: 
 
 # About
 about:
