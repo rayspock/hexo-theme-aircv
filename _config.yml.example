@@ -28,6 +28,7 @@ slider: img/1920x1080/01.jpg
 open_graph:
 ga_tracking_id:
 ga_script_url:
+hotjar_id:
 
 # About
 about:
